@@ -43,23 +43,23 @@ void choice()
 
 void inputAuthor(char result)
 {
-	if (result == '1')
+	switch(result)
 	{
-		system("cls");
-	    writeInformationInStruct();	
+		case '1':
+			system("cls");
+		    writeInformationInStruct();	
+		    break;
+		case '2':
+			system("cls");
+			readAllInformation();
+			break;
+		case '3':
+			system("cls");
+			startSearchNeed();
+			break;
+		default:
+			cout << "This operation is not.";
 	}
-	else if (result == '2')
-	{
-		system("cls");
-		readAllInformation();
-	}
-	else if (result == '3')
-	{
-		system("cls");
-		startSearchNeed();
-	}
-	else
-		cout << "This operation is not.";
 }
 
 
