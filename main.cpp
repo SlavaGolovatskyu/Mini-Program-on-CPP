@@ -12,7 +12,7 @@ void inputAuthor(char result);
 
 int main()
 {
-	choice();
+    choice();
     system("pause");
     return 0;
 }
@@ -21,7 +21,7 @@ void choice()
 {
 	while (true)
 	{
-		char result;
+	    char result;
 	    cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MENU~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n";
 	    cout << "[0] write 0 if you want exit from app\n";
 	    cout << "[1] write 1 if you want write informarmaion of your author book\n";
