@@ -28,8 +28,6 @@ void searchNeed(string needStr)
 		if (count != 0)
 			for (int i = 0; i < result.size(); i++)
 				cout << result[i] << endl;
-		else
-			cout << "Not found" << endl;
 	}
 	else
 		cout << "Error: The file was not opened.";
