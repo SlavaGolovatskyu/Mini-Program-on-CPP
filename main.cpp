@@ -32,7 +32,7 @@ void choice()
 	    	if (result == '0')
 	    		break;
 	    	else
-			{
+		{
 	    		system("cls");
 	    		inputAuthor(result);
 	    	}
@@ -47,8 +47,8 @@ void inputAuthor(char result)
 	{
 		case '1':
 			system("cls");
-		    writeInformationInStruct();	
-		    break;
+		    	writeInformationInStruct();	
+		    	break;
 		case '2':
 			system("cls");
 			readAllInformation();
@@ -61,7 +61,3 @@ void inputAuthor(char result)
 			cout << "This operation is not.";
 	}
 }
-
-
-
-
