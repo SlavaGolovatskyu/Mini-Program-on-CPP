@@ -3,14 +3,11 @@
 
 #include <iostream>
 #include <vector>
-#include <fstream>
-#include "structs.h"
 
 using namespace std;
 
 void searchNeed(string needStr)
 {
-	Author a;
 	string s;
 	int count = 0;
 	vector<string> result;
@@ -32,7 +29,7 @@ void searchNeed(string needStr)
 			for (int i = 0; i < result.size(); i++)
 				cout << result[i] << endl;
 		else
-			cout << "Not found";
+			cout << "Not found" << endl;
 	}
 	else
 		cout << "Error: The file was not opened.";

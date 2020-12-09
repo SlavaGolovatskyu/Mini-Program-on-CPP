@@ -1,15 +1,8 @@
 #ifndef WRITE_DATA_H
 #define WRITE_DATA_H
 
-#include <iostream>
-#include "structs.h"
-#include <fstream>
-
-using namespace std;
-
 void writeData(int age, string name, string book)
 {
-	Author a;
 	string forName = "Author: ", forAge = "Age: ", forBookName = "Book name: ";
 	ofstream fout("test.txt", ios::out | ios::app);
 	if (fout.is_open())

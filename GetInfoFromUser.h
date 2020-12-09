@@ -1,11 +1,8 @@
 #ifndef GET_DATA_H
 #define GET_DATA_H
 
-#include <iostream>
 #include "structs.h"
 #include "writeInfoInUserFile.h"
-
-using namespace std;
 
 void writeInformationInStruct()
 {
