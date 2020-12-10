@@ -1,10 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include "searchData.h"
-#include "structs.h"
 #include "readInfoAll.h"
 #include "GetInfoFromUser.h"
-#include "writeInfoInUserFile.h"
 
 using namespace std;
 
@@ -59,7 +57,7 @@ void inputAuthor(char result)
 			startSearchNeed();
 			break;
 		default:
-			cout << "This operation is not.";
+			cout << "This operation is not." << endl;
 	}
 }
 

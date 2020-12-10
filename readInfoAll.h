@@ -7,10 +7,10 @@ void readAllInformation()
 	ifstream fout("test.txt");
 	if (fout.is_open())
 	{
-		int i = 0;
+		int i = 1;
 		while (getline(fout, s))
 		{
-			cout << "[" << i + 1 << "] - " << s << ',' << endl;
+			cout << "[" << i << "] - " << s << ',' << endl;
 			i++;
 		}
 	}
