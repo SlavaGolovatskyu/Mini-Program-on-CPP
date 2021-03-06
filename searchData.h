@@ -14,7 +14,6 @@ void searchNeed(string needStr)
 	ifstream fout("test.txt");
 	if (fout.is_open())
 	{
-
 		while (getline(fout, s))
 		{
 			if (s.find(needStr) == string::npos)
